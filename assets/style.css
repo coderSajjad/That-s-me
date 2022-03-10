@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Rufina:wght@400;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Rubik:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Rufina:wght@400;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800&family=Montagu+Slab:wght@500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Rubik:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Rufina:wght@400;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    font-family: 'Roboto', sans-serif;
+    height:70px;
+    width: 100%; 
+    overflow: hidden;
+     
+}
+ 
+.logo{
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 20px;
+    width: 120px;
+   
+}
+
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+  
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(5, 31, 31);
+    font-size: 20px;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+ 
+.nav-links li a:hover{
+    color:#2c4cb4;
+}
+
+.btn{
+    text-decoration: none;
+    background-color:#2c4cb4;
+    color: white;
+    padding: 10px 22px;
+     margin: 12px 25px;
+     border-radius: 15px;
+     transition: 0.5s;
+     font-size: 17px;
+
+}
+
+.btn:hover{
+    background-color:#133296;
+}
+
+/* Banner area   */
+img{
+    max-width: 100%;
+}
+ 
+.banner-content{
+    width: 100%;
+    height: 670px;
+    background-color: #a7d2eec4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    font-family: font-family 'Rubik', sans-serif;
+    font-size: 50px;
+    margin-top: 45px;
+    margin-left: 55px;
+    letter-spacing: 1px;
+    color: darkblue;
+}
+
+.cng{
+    color: #bf2e2e;
+}
+
+.about{
+    max-width: 400px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 30px;
+     color: #0029bd;
+    margin-left: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+     
+}
+
+.btn1{
+    text-decoration: none;
+    background-color:#2c4cb4;
+    color: white;
+    padding: 12px 22px;
+    margin-left: 55px;
+    margin-top: 32px;
+    border-radius: 15px;
+    transition: 0.5s;
+    font-size: 17px;
+    display: inline-block;
+    font-family: 'Heebo', sans-serif;
+  
+}
+
+.btn1:hover{
+    background-color:#133296;
+    font-family: 'Heebo', sans-serif;
+}
+
+  
+ .img{
+     position: relative;
+     width: 540px;
+     margin-right: 100px;
+     margin-top: 60px;
+ }
+
+ #thumbnal{
+     width: 650px;
+    margin-top: 90px;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+ 
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(15deg);
+        
+    }
+}
+
+ 
+ .cetagory{
+     position: absolute;
+     top: -70px;
+     left: 16px;
+ }
+
+ .me{
+     margin-right: 60px;
+     display: inline-block;
+     margin-left: -30px;
+      
+ }
